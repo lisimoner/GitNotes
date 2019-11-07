@@ -40,3 +40,8 @@ git rm file 用来删除版本库中的文件，然后使用git commit -m "xxxx"
 
 
 git clone git@github.com:lisimoner/GitNotes.git 可以将别人的GitHub仓库里的东西克隆到本地，git@github.com:lisimoner/GitNotes.git使用的是SSH的地址，也可以使用https的地址，SSH的速度更快
+
+          /**********创建分支**************/
+1.创建dev分支，然后切换到dev分支 使用git checkout -b dev命令来创建， -b表示创建被切换，相当于执行了git branch dev (创建dev分支)
+git checkout dev(切换到dev分支)两条命令
+2.git branch 会列出所有的分支，并在当前分支前加上一个*号
