@@ -15,3 +15,11 @@ git log --pretty=oneline 可以简化输出的信息 （输出的一大串符号
 git reset --hard HEAD^ 该命令可以将文档返回到上一个版本，HEAD表示当前版本，HEAD^就表示上一个版本，HEAD^^就表示上上个版本，如果要表示往上的100个版本，可以写成HEAD~100
 
 cat <file> 可以查看一个文档的内容
+
+git reset --hard <commit id> 该命令可以回到指定的某个版本，<commit id>是指的需要退回版本的版本号，只需要填写前几位就行，git会自动寻找
+
+gti reflog 可以返回你操作的每一条命令
+
+总得来说，git log 可以查看提交历史，来确定要退回到哪个版本，git reflog可以查看命令历史，以便确定要回到未来的哪个版本
+
+git checkout -- <file> 可以让这个文件返回到最近一次git commit或git add时的状态
