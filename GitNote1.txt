@@ -35,6 +35,7 @@ git rm file 用来删除版本库中的文件，然后使用git commit -m "xxxx"
 2.git remote add origin git@github.com:lisimoner/GitNotes.git 运行该命令后将本地仓库与GitHub上建立的GitNotes仓库进行关联
 3.git push -u origin master 将本地库的所有内容推送到远程库上，由于是第一次提交，所有添加了-u参数
 4.git push origin master 只要本地文件提交到了本地的仓库，可以通过该命令提交到github仓库
+5.若是在第3步出现error:failed to push some refs to "SSH"，需要用到 git pull --rebase origin master 命令来初始化仓库
 
 
 
