@@ -1,9 +1,4 @@
-﻿fsdfsdfsfgf
-
-
-
-
-git init 是初始化一个Git仓库
+﻿git init 是初始化一个Git仓库
 
 git add <file> 添加文件，这个命令可以反复使用，添加多个文件，add的文件必须包含在git的路径下
 
@@ -90,3 +85,5 @@ git rebase 命令可以将本地未push的分叉提交历史整理成直线，re
 git status    ->>>> git st   是相同的效果
 git config --global alias.st status  使用该行命令可以将status缩写成st
 如果需要修改配置的别名，需要在.git/config文件中[alias]中直接删除该配置别名就行，全局命令下的配置文件放在用户主目录下的一个隐藏文件.gitconfige中。
+
+dadasdsada
